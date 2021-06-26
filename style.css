@@ -152,6 +152,7 @@ tr, td {
     
     .static {
         font-size: 8px;
+        padding-left: 5px;
     }
 
     .date-changelog{
@@ -171,6 +172,7 @@ tr, td {
     
     .static {
         font-size: 8px;
+        
     }
 
     .date-changelog{
@@ -196,12 +198,12 @@ tr, td {
 @media (max-width: 1235px) {
     
     .static {
-        font-size: 8px;
+        font-size: 16px;
     }
 
     .date-changelog{
-        width: 40%;
-        font-size: 12px;
+        width: 95%;
+        font-size: 16px;
     }
 
 }
