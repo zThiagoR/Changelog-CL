@@ -58,7 +58,7 @@ a:hover {
 .date-changelog {
     background: rgba(26, 26, 26, 1);
     margin-bottom: 1.5rem;
-    width: 20%;
+    width: 25%;
     padding-left: 7px;
     padding-top: 7px;
     padding-right: 5px;
@@ -141,5 +141,62 @@ tr, td {
 }
 
 
+/* RESPONSIVO */
+
+@media (min-width: 320px) and (max-width: 479px) {
+    
+    .static {
+        font-size: 8px;
+    }
+
+    .date-changelog{
+        width: 80%;
+        font-size: 8px;
+    }
+
+    .date-changelog p {
+        width: 80%;
+        font-size: 8px;
+    }
+
+}
 
 
+@media (max-width: 795px) {
+    
+    .static {
+        font-size: 8px;
+    }
+
+    .date-changelog{
+        width: 40%;
+        font-size: 8px;
+    }
+
+}
+
+@media (max-width: 720px) {
+    
+    .static {
+        font-size: 8px;
+    }
+
+    .date-changelog{
+        width: 40%;
+        font-size: 8px;
+    }
+
+}
+
+@media (max-width: 1235px) {
+    
+    .static {
+        font-size: 8px;
+    }
+
+    .date-changelog{
+        width: 40%;
+        font-size: 12px;
+    }
+
+}
