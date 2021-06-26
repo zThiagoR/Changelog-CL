@@ -4,7 +4,7 @@
 
 body {
     line-height: 1.42857143;
-    font-size: 14px;
+    font-size: 17px;
 }
 
 p, a {
@@ -58,12 +58,13 @@ a:hover {
 .date-changelog {
     background: rgba(26, 26, 26, 1);
     margin-bottom: 1.5rem;
-    width: 25%;
+    width: 95%;
     padding-left: 7px;
     padding-top: 7px;
     padding-right: 5px;
     padding-bottom: 5px;
     color: aliceblue;
+    text-align: center;
 }
 
 .date-style {
@@ -96,6 +97,11 @@ a:hover {
 
 .gladiadores hr.line-neon {
     margin-top: -8px;
+}
+
+.gladidores, .links-changelog {
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 td, tr {
